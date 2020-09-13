@@ -1,10 +1,8 @@
-package week1.day2;
-
 public class Armstrong {
 
 	public static void main(String[] args) {
-		int input =123;
-		int intial=123;
+		int input =153;
+		int intial=153;
 		int finalvalue=0;
 				
 		while(input >0)
@@ -16,6 +14,16 @@ public class Armstrong {
 		}
 
 		System.out.println("Armstrong value of input: " +intial+ " is " +finalvalue);
+		
+		if(finalvalue ==intial)
+		{
+			System.out.println("Given number is Armstrong number");
+		}
+		
+		else
+		{
+			System.out.println("Given number is not Armstrong number");
+		}
 		
 	}
 
